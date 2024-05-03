@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.bottle {
+    width: 100px;
+    height: 250px;
+    position: relative;
+    border: 5px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.bottle-body {
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    background-color: #009688; /* Color del cuerpo de la botella */
+    border-radius: 5px;
+}
+
+.bottle-neck {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cap {
+    width: 15px;
+    height: 5px;
+    background-color: #333;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cork {
+    width: 8px;
+    height: 10px;
+    background-color: #804000; /* Color del tapón */
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottle {
+    width: 150px;
+    height: 300px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.liquid {
+    width: 90%;
+    height: 90%;
+    background-color: pink; /* Color inicial */
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.flavors {
+    display: flex;
+    justify-content: center;
+}
+
+.flavor {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #62c2e7;
+    color: #fff;
+}
+
+.flavor:hover {
+    background-color: #45a049;
+}
